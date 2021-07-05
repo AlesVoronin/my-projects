@@ -1,0 +1,477 @@
+@media all and (max-width: 1919px) {
+
+    /*NAVIGATION*/
+    .header_wrapper {
+        max-width: 1120px;
+        width: 1120px;
+    }
+
+    .hero {
+        max-width: 1050px;
+    }
+
+    .navigation_menu {
+        max-width: 1120px;
+        min-width: 1120px;
+        height: 70px;
+    }
+
+    .logo_sticky {
+        width: 70px;
+        height: 70px;
+    }
+
+    .sticky_menu {
+        height: 620px;
+        width: 70px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .profile {
+        width: 42px;
+        height: 44px;
+    }
+
+    .profile img {
+        width: 21px;
+        height: 36.35px;
+    }
+
+    aside {
+        width: 70px;
+        margin-top: -72px;
+        margin-left: 0px;
+    }
+
+    .logo_sticky img {
+        width: 41.5px;
+        height: 32px;
+    }
+
+    .navigation ul {
+        margin-left: 144px;
+        margin-right: 182px;
+        width: 680px;
+    }
+    .animal_icons{
+        width: 45px;
+        height: 45px;
+    }
+
+    .social_links {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 416px;
+    }
+
+    .social_links img {
+        width: 18px;
+        height: 19px;
+    }
+
+    .arrow {
+        width: 42px;
+        height: 42px;
+    }
+    .arrow_nav{
+        width: 66px;
+        height: 66px;
+    }
+
+    /*MAIN CAM*/
+    .main_cam{
+        height: 436px;
+    }
+    .main_cam_content{
+        min-width: 1050px;
+        max-width: 1050px;
+    }
+    .video_frame{
+        min-width: 1050px;
+    }
+    .panda_cards{
+        width: 370px;
+    }
+    .panda_cards_info{
+
+    }
+    .panda_cards_avatar{
+        width: 54px;
+        height: 54px;
+        background-size: contain;
+    }
+    .text_info_title{
+        font-size: 20px;
+    }
+    .text_card_description{
+        font-size: 22px;
+    }
+    .panda_cards .button_blue{
+        width: 211px;
+        height: 59px;
+    }
+    .panda_cards .button_blue p{
+        font-size: 16px;
+    }
+    .panda_cards .button_blue p:nth-child(1){
+        display: none;
+    }
+    #button_text_hide{
+        display: block;
+    }
+    .content_line{
+        display: none;
+    }
+    .main_cam_content iframe {
+        margin-left: 48px;
+    }
+    .panda_cards h3 {
+        width: 343px;
+    }
+    .video_frame iframe{
+        width: 545px;
+        height: 307px;
+    }
+
+
+    /*OTHER CAMS*/
+    .other_cams_wrapper{
+        height: 336px;
+        margin-top: -123px;
+    }
+    .other_cams{
+        min-width: 0;
+        max-width: 1120px;
+    }
+    .other_cams_content{
+        width: 831px;
+        height: 301px;
+    }
+    .other_cams_title h3{
+        font-size: 22px;
+    }
+    .other_cams_title{
+        align-items: center;
+        width: 148px;
+    }
+    .other_cams_title img{
+        width: 13px;
+        height: 9px;
+    }
+    .other_cams_slider .iframe-wrapper:nth-last-child(1){
+        display: none;
+    }
+    .other_cams_slider {
+        margin-top: -10px;
+        width: 831px;
+    }
+    .iframe-wrapper{
+        width: 257px;
+        height: 144px;
+    }
+    .iframe-wrapper iframe{
+        width: 257px;
+        height: 144px;
+    }
+    .iframe-wrapper_container{
+        width: 257px;
+        height: 144px;
+    }
+    .preview-content h4{
+        font-size: 20px;
+    }
+    .watch span{
+        font-size: 18px;
+    }
+    .watch{
+        width: 87px;
+    }
+    .preview-content h4 {
+        margin: 43px 0 0 0;
+    }
+    .famous_pets_btn {
+        width: 132px;
+    }
+
+    /*INTERESTING FACTS*/
+    .interesting_facts{
+        min-width: 0;
+        max-width: 1120px;
+    }
+    .interesting_facts_title{
+        min-height: 154px;
+        margin-bottom: 61px;
+    }
+    .interesting_facts_content{
+        width: 976px;
+        margin-left: 148px;
+        margin-top: 46px;
+    }
+    .text_btn_accordeon {
+        font-size: 24px;
+    }
+    .blue_plus{
+        margin-right: 7px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*PAY AND FEET*/
+    .pay_and_feet_wrapper {
+        height: 1248px;
+    }
+
+    .pay_and_feet {
+        width: 1200px;
+    }
+
+    .first_arrow {
+        display: none;
+    }
+
+    .second_arrow {
+        display: none;
+    }
+
+    .pay_visa {
+        margin-top: 0;
+        margin-bottom: 0;
+        align-self: flex-end;
+        width: 753px;
+        height: 252px;
+        margin-top: 44px;
+        margin-right: 119px;
+    }
+
+    .pay_and_feet .text_h3 {
+        margin-right: 7px;
+
+    }
+
+    .payment {
+        margin-left: 0;
+        margin-right: 118px;
+        margin-top: 65px;
+        align-self: flex-end;
+        width: 753px;
+        height: 252px;
+    }
+
+    .selected_animal {
+        margin-top: 47px;
+        margin-right: 118px;
+        margin-left: 0;
+        margin-right: 118px;
+        align-self: flex-end;
+        width: 753px;
+        height: 252px;
+
+    }
+
+    .pay_and_feet_image img {
+        width: 242px;
+        height: 242px;
+    }
+
+    .pay_and_feet_container {
+        margin-top: 0;
+        margin-bottom: 8px;
+        margin-left: 47px;
+    }
+
+    #first_container {
+        height: 136px;
+        width: 428px;
+        margin-bottom: 6px;
+    }
+
+    #second_container {
+        width: 456px;
+        height: 111px;
+        margin-top: 7px;
+    }
+
+    #third_container {
+        width: 456px;
+        height: 152px;
+        margin-bottom: 31px;
+    }
+
+    #third_container .span_text {
+        width: 300px;
+    }
+
+
+    /*FOOTER*/
+    .footer{
+        width: 1200px;
+        height: 720px;
+    }
+    .rs_school{
+        width: 128px;
+        height: 176px;
+        flex-direction: column;
+        /*align-items: flex-start;*/
+    }
+    .footer_logo{
+        width: 119px;
+        height: 91px;
+        background-size: contain;
+    }
+    .logos{
+        margin-left: 40px;
+        width: 235px;
+    }
+    .navigation_footer{
+        letter-spacing: 1px;
+        margin-right: 172px;
+    }
+    .support_container{
+        margin-right: 61px;
+        letter-spacing: 1px;
+    }
+    .support .button_light{
+        width: 339px;
+        height: 61px;
+    }
+    .social_links_footer{
+        width: 381px;
+        margin-top: 92px;
+    }
+    .support .text_h3{
+        letter-spacing: 2.5px;
+    }
+    .footer_line{
+        width: 1120px;
+        margin-bottom: 40px;
+    }
+    .navigation_footer{
+        height: 513px;
+    }
+    .copyright{
+        min-width: 1120px;
+    }
+    .copyright_wrapper{
+        min-width: 1200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*TEXT*/
+
+
+
+
+    .hero_wrapper {
+        height: 616px;
+    }
+
+    .text_h2 {
+        margin-bottom: 35px;
+    }
+
+    .text_big_span {
+        font-size: 56px;
+        line-height: 70px;
+        letter-spacing: 1px;
+    }
+
+    .letter_i p {
+        font-size: 56px;
+    }
+
+    .watch_content_buttons {
+        width: 474px;
+        margin-top: 50px;
+    }
+
+    .watch_content {
+        margin-right: 104px;
+    }
+
+    .watch_image {
+        margin: 0;
+        height: 456px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .span_text {
+        font-size: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .content_text {
+        font-size: 16px;
+    }
+
+    .text_h3 {
+        letter-spacing: 0.07em;
+    }
+
+    /*BUTTON*/
+    .button_blue {
+        height: 45px;
+    }
+
+    .button_light {
+        height: 45px;
+    }
+
+    .hero_button_left {
+        width: 206px;
+    }
+
+    .hero_button_right {
+        width: 216px;
+    }
+
+    .circle_arrow {
+        width: 56px;
+        height: 56px;
+        background-color: #0F0049;
+    }
+    .btn_text{
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

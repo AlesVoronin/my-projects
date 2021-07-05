@@ -1,0 +1,168 @@
+@media all and (max-width: 1119px) {
+
+    body{
+        background-image: url("../../assets/images/map_640.png");
+        background-position-y: 0;
+    }
+    aside{
+        display: none;
+    }
+    main{
+        min-width: 640px;
+        max-width: 640px;
+    }
+
+    .header_wrapper{
+        margin-top: 0;
+        max-width: 640px;
+        z-index: 3;
+    }
+    .navigation_menu{
+        max-width: 640px;
+        min-width: 640px;
+        height: 88px;
+        border: 0;
+        background: none;
+        justify-content: space-between;
+    }
+    #slide_menu{
+        width: 640px;
+        transform: translateY(-650px);
+        z-index: 2;
+        display: block;
+        padding-top: 138px;
+        padding-bottom: 105px;
+        position: absolute;
+        top: 0;
+        background-color: #FCFCFC;
+        transition: 0.5s ease-in-out;
+    }
+    .navigation ul{
+        flex-direction: column;
+        margin: 0;
+        height: 300px;
+        width: 640px;
+        /*height: 0px;*/
+    }
+
+
+    .logo{
+        width: 88px;
+        height: 88px;
+    }
+    .navigation{
+        display: none;
+    }
+    .profile_wrapper{
+        display: none;
+    }
+    .burger_menu_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 88px;
+        height: 88px;
+    }
+    .burger_menu{
+        display: flex;
+    }
+
+    .map_content{
+        max-width: 640px;
+    }
+    .map_active_card{
+        width: 250px;
+        height: 390px;
+        left: 66px;
+        top: 146px;
+    }
+    .map_active_card img:nth-child(1){
+        width: 250px;
+        height: 161px;
+    }
+    .map_active_card .span_text {
+        font-size: 24px;
+    }
+    .map_active_card_text{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .map_active_card_text .content_text {
+        font-size: 14px;
+        text-align: center;
+        width: 220px;
+    }
+    .map_active_card span {
+        margin-bottom: 22px;
+    }
+    #marker_panda{
+        display: none;
+    }
+    #marker_eagle{
+        display: none;
+    }
+    #marker_alligator{
+        display: none;
+    }
+    #marker_gorilla{
+        top: 249px;
+        left: 290px;
+    }
+    .footer_map{
+        top: 608px;
+        left: -227px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 596px;
+        height: 76px;
+        background: #FCFCFC;
+        border-radius: 15px;
+    }
+    .animal_icon_wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 462px;
+        height: 45px;
+    }
+    .arrow_320_left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        width: 66px;
+        height: 76px;
+    }
+    .arrow_320_right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        width: 66px;
+        height: 76px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

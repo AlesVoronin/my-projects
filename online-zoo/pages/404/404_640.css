@@ -1,0 +1,231 @@
+@media all and (max-width: 1199px) {
+
+    .header_wrapper{
+        max-width: 640px;
+        margin-top: 0;
+    }
+    .hero_wrapper{
+        max-width: 640px;
+        height: 446px;
+    }
+
+
+    /*NAVIGATION*/
+    aside{
+        display: none;
+    }
+    .logo img{
+        display: flex;
+        width: 49.28px;
+        height: 38px;
+    }
+    .logo{
+        width: 89.28px;
+        height: 88px;
+    }
+    .navigation {
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .burger_menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-top: 25px;
+        margin-bottom: 28px;
+        width: 55px;
+        height: 35px;
+    }
+    .profile_link{
+        display: none;
+    }
+    .navigation_menu{
+        justify-content: space-between;
+        min-width: 640px;
+        height: 88px;
+        margin-left: 0;
+    }
+    .profile_wrapper{
+        display: none;
+    }
+    #slide_menu{
+        width: 640px;
+        transform: translateY(-650px);
+        z-index: 3;
+        display: block;
+        padding-top: 138px;
+        padding-bottom: 105px;
+        position: absolute;
+        top: 0;
+        background-color: #FCFCFC;
+        transition: 0.5s ease-in-out;
+    }
+    .navigation ul{
+        flex-direction: column;
+        margin: 0;
+        height: 300px;
+        width: 640px;
+        /*height: 0px;*/
+    }
+
+
+
+
+
+
+
+    /*FOOTER*/
+    .footer{
+        height: 700px;
+        width: 640px;
+    }
+    .footer_menu{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 78px;
+    }
+    .navigation_footer{
+        margin-right: 0;
+        width: 133px;
+        margin-left: 20px;
+        margin-top: 60px;
+        height: 424px;
+    }
+    .support_container{
+        width: 390px;
+        margin-right: 19px;
+        margin-top: 60px;
+    }
+    .support .text_h3 {
+        letter-spacing: 3.5px;
+    }
+    .support{
+        height: 230px;
+    }
+    .content_text{
+        width: 370px;
+    }
+    .support_container .button_light{
+        width: 314px;
+        height: 55px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .navigation_footer ul {
+        height: 300px;
+    }
+    .navigation_footer h3{
+        letter-spacing: 0.18em;
+    }
+    .logos{
+        margin-left: 0;
+        flex-direction: row;
+        width: 474px;
+        margin-right: 20px;
+        align-items: flex-end;
+    }
+    .footer_logo{
+        width: 95px;
+        height: 74px;
+        margin-right: 115px;
+        margin-left: 20px;
+    }
+    .logos{
+        height: 74px;
+    }
+    .rs_school{
+        min-width: 264px;
+        height: 49px;
+        flex-direction: row;
+    }
+    .rs_school img:nth-child(1){
+        width: 93px;
+        height: 49px;
+    }
+    .rs_school img:nth-last-child(1){
+        width: 102px;
+        height: 38px;
+    }
+    .text_social_links{
+        font-size: 18px;
+    }
+    .social_links_footer{
+        width: 373px;
+        margin-top: 50px;
+    }
+    .footer_line {
+        width: 600px;
+        margin-left: -18px;
+        margin-bottom: 22px;
+    }
+    .copyright {
+        min-width: 600px;
+        margin-left: -16px;
+    }
+    .copyright_wrapper{
+        min-width: 0px;
+        max-width: 640px;
+    }
+
+    /*TEXT*/
+    .text_big_span{
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .letter_i{
+        font-size: 42px;
+    }
+    .letter_i p{
+        font-size: 42px;
+    }
+    .text_h3{
+        letter-spacing: 0.12em;
+    }
+    .text_h3{
+        font-size: 20px;
+    }
+    .span_text{
+        font-size: 24px
+    }
+    .subscribtion_text{
+        font-size: 14px;
+    }
+
+
+
+
+    .content_wrapper{
+        height: 909px;
+        min-width: 640px;
+    }
+    .messsage_404{
+        width: 640px;
+        margin-bottom: 25px;
+    }
+    iframe{
+        width: 600px;
+        height: 338px;
+    }
+    .text_404{
+        font-size: 96px;
+    }
+    .messsage_404 .text_h3_404{
+        font-size: 26px;
+    }
+    .content_text_404 {
+        font-size: 16px;
+        margin-top: -10px;
+        margin-bottom: 34px;
+    }
+    .support .footer_text {
+        font-size: 16px;
+        text-align: left;
+        width: 332px;
+    }
+    header{
+        border-bottom: 2px solid #F0F0F0;
+    }
+}

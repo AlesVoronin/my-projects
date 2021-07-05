@@ -1,0 +1,482 @@
+@media screen and (max-width: 1199px) {
+
+  .header_wrapper{
+    max-width: 640px;
+    margin-top: 0;
+    background-color: #fcfcfc;
+  }
+  .hero_wrapper{
+    max-width: 640px;
+    height: 446px;
+  }
+
+
+  /*NAVIGATION*/
+  #slide_menu{
+    z-index: 2;
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 105px;
+    position: absolute;
+    top: 88px;
+    background-color: #FCFCFC;
+    transform: translateY(-430px);
+    transition: 0.5s ease-in-out;
+  }
+  .navigation ul{
+    flex-direction: column;
+    margin: 0;
+    height: 300px;
+    /*height: 0px;*/
+  }
+
+
+
+  aside{
+    display: none;
+  }
+  .logo img{
+    display: flex;
+  }
+  .navigation {
+    display: none;
+  }
+  .profile{
+    display: none;
+  }
+  .burger_menu{
+    display: flex;
+    margin-right: 25px;
+  }
+  .profile_link{
+    display: none;
+  }
+  .navigation_menu{
+    justify-content: space-between;
+  }
+  .navigation_menu{
+    border: 0;
+    border-bottom: 2px solid #F0F0F0;
+    background-color: #fcfcfc;
+    height: 88px;
+    z-index: 3;
+  }
+
+  /*WATCH_YOUR_FAVORITE*/
+  .hero{
+    max-width: 640px;
+  }
+  .watch_your_fav{
+    justify-content: flex-start;
+    min-width: 640px;
+    margin-top: 59px;
+  }
+  .watch_content{
+    width: 316px;
+    height: 311px;
+    margin: 0;
+    margin-left: 10px;
+  }
+  .watch_content_buttons a:nth-child(2){
+    display: none;
+  }
+  .watch_image{
+    width: 263px;
+    height: 326px;
+    background-size: cover;
+    background-position: center;
+  }
+  .text_online{
+    display: contents;
+  }
+  .watch_content .text_h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .watch_image{
+    margin-left: 25px;
+  }
+  .watch_content_buttons{
+    margin-top: 38px;
+  }
+
+  /*HOW ZOO*/
+  .how_zoo_wrapper{
+    height: 975px;
+    align-items: flex-start;
+  }
+  .how_zoo{
+    width: 640px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about{
+    order: -1;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 17px;
+    margin-bottom: 59px;
+    height: 389px;
+    width: 550px;
+  }
+  .about span{
+    margin-top: 4px;
+  }
+  .how_zoo_img{
+    margin: 0;
+    margin-right: 16px;
+    width: 390px;
+    height: 386px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .about .span_text{
+    width: 550px;
+    font-size: 26px;
+  }
+
+
+  /*FAMOUS PETS*/
+  .famous_pets{
+    width: 640px;
+    height: 855px;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .famous_pets_content{
+    margin-top: 0;
+    max-width: 189px;
+    min-height: 255px;
+    min-width: 0;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+    margin-top: 58px;
+    margin-right: 20px;
+  }
+  .famous_pets_content .text_h3{
+    font-size: 20px;
+  }
+  .famous_pets_content .span_text{
+    font-size: 24px;
+    margin-bottom: 3px;
+  }
+  .animal-card-container{
+    transform: scale(0.56);
+    width: 1100px;
+    margin-top: -92px;
+  }
+  .animal-card{
+    margin-right: 30px;
+    margin-bottom: 44px;
+  }
+
+  #card_animal_3{
+    display: flex;
+  }
+  #card_animal_8{
+    display: flex;
+  }
+
+  /*PAY AND FEET*/
+  .pay_and_feet_wrapper{
+    height: 1544px;
+  }
+  .pay_and_feet{
+    width: auto;
+    text-align: center;
+  }
+  .pay_and_feet .text_h3{
+    width: auto;
+  }
+  .pay_visa{
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    margin-top: 28px;
+  }
+  .pay_visa .pay_and_feet_image{
+    margin-right: 18px;
+  }
+  .pay_visa .span_text{
+    margin-top: 10px;
+  }
+  .payment{
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    margin-top: 81px;
+  }
+  .payment .pay_and_feet_image{
+    margin-right: 18px;
+  }
+  #second_container{
+    margin-top: 27px;
+    margin-right: 18px;
+  }
+  #second_container .span_text{
+    margin-bottom: 26px;
+  }
+
+  .selected_animal{
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+  }
+  .selected_animal .pay_and_feet_image{
+    margin-top: 92px;
+    margin-right: 18px;
+  }
+  #third_container{
+    margin-right: 18px;
+  }
+  #third_container .span_text{
+    margin-top: 27px;
+    margin-bottom: 28px;
+  }
+  .pay_visa .pay_and_feet_image img {
+    width: 180px;
+    height: 180px;
+  }
+  .payment .pay_and_feet_image img {
+    width: 180px;
+    height: 181px;
+  }
+  .selected_animal .pay_and_feet_image img {
+    width: 242px;
+    height: 242px;
+  }
+  .pay_and_feet_container{
+    margin: 0;
+    align-items: center;
+  }
+  .pay_and_feet .text_h3{
+    margin-right: 18px;
+    margin-top: 78px;
+  }
+  .pay_and_feet_container .content_text{
+    font-size: 18px;
+  }
+  #first_container{
+    height: 144px;
+    margin-right: 18px;
+  }
+  #first_container span{
+    margin-top: 26px;
+    margin-bottom: 28px;
+  }
+
+  /*TESTIMONIALS*/
+  .testimonials_wrapper{
+    height: 979px;
+  }
+  .testimonials{
+    flex-direction: column;
+    width: 640px;
+  }
+  .testimonials_text_container{
+    align-self: center;
+    margin: 0;
+  }
+  .testimonials_text{
+    margin-top: 78px;
+    margin-right: 18px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .testimonials .button_light{
+    margin-left: 52px;
+  }
+  .testimonials_text .span_text{
+    font-size: 28px;
+    margin-top: 34px;
+  }
+  .testimonials_text .content_text{
+    text-align: center;
+  }
+  .testimonials_card_container{
+    align-items: center;
+    width: 640px;
+    margin-left: -18px;
+  }
+  .testimonials_card_container{
+    margin-top: 76px;
+  }
+
+
+  /*ZOOGEOGRAPHY*/
+  .zoogeography_wrapper{
+    height: 826px;
+  }
+  .zoogeography{
+    flex-direction: column;
+    width: 640px;
+  }
+  .zoogeography_content .text_h3{
+    display: none;
+  }
+  .zoogeography_content{
+    z-index: 2;
+  }
+  .map_active_card{
+    margin-left: 8px;
+    margin-top: -5px;
+    width: 250px;
+    height: 390px;
+  }
+  .map_active_card_text .content_text{
+    font-size: 14px;
+    width: 212px;
+  }
+  .map_active_card_text{
+    display: flex;
+    justify-content: center;
+  }
+  .map_active_card img:nth-child(1){
+    width: 250px;
+    height: 160px;
+  }
+  .map {
+    z-index: 1;
+    width: 595px;
+    margin-top: -91px;
+    margin-left: 18px;
+  }
+  #marker_panda{
+    top: 88px;
+    left: 401px;
+  }
+  #marker_gorilla{
+    top: -1px;
+    left: 231px;
+  }
+  #marker_eagle{
+    top: -241px;
+    left: 10px;
+  }
+  #marker_alligator{
+    top: -389px;
+    left: 90px;
+  }
+
+  /*FOOTER*/
+  .footer{
+    height: 700px;
+    width: 640px;
+  }
+  .footer_menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -18px;
+    margin-top: 78px;
+  }
+  .navigation_footer{
+    margin-right: 0;
+    width: 133px;
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 424px;
+  }
+  .support_container{
+    width: 390px;
+    margin-right: 19px;
+    margin-top: 60px;
+  }
+  .support .text_h3 {
+    letter-spacing: 3.5px;
+  }
+  .support{
+    height: 230px;
+  }
+  .content_text{
+    width: 370px;
+  }
+  .support_container .button_light{
+    width: 314px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .navigation_footer ul {
+    height: 300px;
+  }
+  .navigation_footer h3{
+    letter-spacing: 0.18em;
+  }
+  .logos{
+    margin-left: 0;
+    flex-direction: row;
+    width: 474px;
+    margin-right: 20px;
+    align-items: flex-end;
+  }
+  .footer_logo{
+    width: 95px;
+    height: 74px;
+    margin-right: 115px;
+    margin-left: 20px;
+  }
+  .logos{
+    height: 74px;
+  }
+  .rs_school{
+    min-width: 264px;
+    height: 49px;
+    flex-direction: row;
+  }
+  .rs_school img:nth-child(1){
+    width: 93px;
+    height: 49px;
+  }
+  .rs_school img:nth-last-child(1){
+    width: 102px;
+    height: 38px;
+  }
+  .text_social_links{
+    font-size: 18px;
+  }
+  .social_links_footer{
+    width: 373px;
+    margin-top: 50px;
+  }
+  .footer_line {
+    width: 600px;
+    margin-left: -18px;
+    margin-bottom: 22px;
+  }
+  .copyright {
+    min-width: 600px;
+    margin-left: -16px;
+  }
+  .copyright_wrapper{
+    min-width: 0px;
+    max-width: 640px;
+  }
+
+  /*TEXT*/
+  .text_big_span{
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .letter_i{
+    font-size: 42px;
+  }
+  .letter_i p{
+    font-size: 42px;
+  }
+  .text_h3{
+    letter-spacing: 0.12em;
+  }
+  .text_h3{
+    font-size: 20px;
+  }
+  .span_text{
+    font-size: 24px
+  }
+  .subscribtion_text{
+    font-size: 14px;
+  }
+
+}

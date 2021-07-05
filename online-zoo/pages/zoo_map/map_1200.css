@@ -1,0 +1,171 @@
+@media screen and (max-width: 1919px){
+    body{
+        background-image: url("../../assets/images/map1200.png");
+        background-position-y: 0;
+    }
+    main{
+        min-width: 1200px;
+        max-width: 1200px;
+        justify-content: flex-start;
+    }
+    /*NAVIGATION*/
+    .header_wrapper {
+        max-width: 1120px;
+    }
+
+    .hero {
+        max-width: 1050px;
+    }
+
+    .navigation_menu {
+        max-width: 1120px;
+        min-width: 1120px;
+        height: 70px;
+    }
+
+    .logo_sticky {
+        width: 70px;
+        height: 70px;
+    }
+
+    .sticky_menu {
+        height: 620px;
+        width: 70px;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .profile {
+        width: 42px;
+        height: 44px;
+    }
+
+    .profile img {
+        width: 21px;
+        height: 36.35px;
+    }
+
+    aside {
+        width: 74px;
+        margin-top: -72px;
+        margin-left: 39px;
+    }
+
+    .logo_sticky img {
+        width: 41.5px;
+        height: 32px;
+    }
+
+    .navigation ul {
+        margin-left: 74px;
+        margin-right: 182px;
+        width: 680px;
+    }
+
+    .social_links {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 416px;
+        min-height: 416px;
+    }
+
+    .social_links img {
+        width: 18px;
+        height: 19px;
+    }
+
+    .arrow {
+        width: 42px;
+        height: 42px;
+    }
+
+    .arrow_nav{
+        width: 66px;
+        height: 66px;
+    }
+    .animal_icons{
+        width: 45px;
+        height: 45px;
+    }
+
+
+    /*MAP*/
+    .map_content{
+        max-width: 1200px;
+        min-width: auto;
+    }
+
+    .map_active_card{
+        width: 292px;
+        height: 448px;
+        left: 250px;
+        top: 110px;
+    }
+    .map_active_card img:nth-child(1){
+        height: 194px;
+        width: 292px;
+        object-fit: cover;
+
+    }
+    .map_active_card span {
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+    .map_active_card .span_text{
+        font-size: 28px;
+    }
+    .map_active_card_text .content_text{
+        font-size: 16px;
+    }
+    .watch_now {
+        display: flex;
+        width: 115px;
+        justify-content: space-between;
+    }
+    .watch_now .btn_text{
+        font-size: 16px;
+    }
+    .map_active_card_text {
+        margin-bottom: 34px;
+    }
+    .watch_now img {
+         margin-left: 0;
+    }
+    #marker_alligator{
+        transform: scale(0.8);
+        top: 137px;
+        left: 85px;
+    }
+    #marker_eagle{
+        transform: scale(0.8);
+    }
+    #marker_gorilla{
+        transform: scale(0.57);
+        top: 240px;
+        left: 516px;
+    }
+    #marker_panda{
+        transform: scale(0.8);
+        top: 164px;
+        left: 972px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
